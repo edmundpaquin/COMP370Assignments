@@ -1,0 +1,3 @@
+1. found data exists already. designed data is acquired thru an experiemnt made specifically to address our data science question. 
+2. we may not be able to investigate the whole sample space due to large scale, and: the sampling space may be hard to define (reddit bots are the eg from class)
+3. The creation of an API implies that the site owner is comfortable sharing the content of their servers through the controlled manner of the API. Scraping can be done without consent, does not pay the owner, and does not allow any control over what data is taken from a site. Thsican be problematic for some site owners. 
