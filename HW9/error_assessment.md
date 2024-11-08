@@ -1,0 +1,1 @@
+Concordia has more program questions than mcgill. Mcgill has more resources/facilities questions. 
