@@ -18,4 +18,4 @@
         a. What is an airplane? definition
         b. Why do we have stoplights? motivation
         c. When is it appropriate to yell “Fire” in a crowded room? definition
-        d. How do you eat an apple? process
+        d. How do you eat an apple? process.
