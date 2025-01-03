@@ -1,0 +1,31 @@
+import csv
+from bokeh.io import curdoc
+from bokeh.layouts import column, row
+from bokeh.models import ColumnDataSource, Select, FileInput
+from bokeh.plotting import figure
+from io import StringIO
+
+# Initial empty data
+data = []
+
+# Data source for the plot
+source = ColumnDataSource(data=dict(month=[], average=[]))
+
+# Create the plot
+plot = figure(title="Average Data by Month for Selected ZIP Code",
+              x_axis_label="Month",
+              y_axis_label="Average",
+              plot_width=800, plot_height=400)
+
+line = plot.line('month', 'average', source=source, line_width=2, color='blue')
+
+# Dropdown to select ZIP code
+zip_select = Select(title="Select ZIP Code", value="", options=[])
+
+# File input widget for CSV upload
+file_input = FileInput(accept=".csv")
+
+def do(){
+    #implement bokeh dashboard functionality here. incomplete. 
+}
+
